@@ -7,8 +7,26 @@ p {
   color: white;
   margin: 10px;
   padding: 15px;
+  font-size: 50px;
 }
 
-ul {
+nav ul {
   border: 2px solid blue;
+  margin-left: 30px;
+}
+nav ul li {
+  color: purple;
+}
+nav ul li a {
+  text-decoration: line-through;
+}
+
+button {
+  border: 2px solid red;
+  background-color: rgb(56, 38, 38);
+  color: white;
+}
+button:hover {
+  background-color: red;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
